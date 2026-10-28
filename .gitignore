@@ -1,0 +1,37 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local data, databases, logs, and temporary files
+chroma_db/
+.chromadb/
+*.sqlite3
+*.log
+uvicorn.log
+unicorn.log
+out.log
+err.log
+uvicorn-err.log
+uvicorn-out.log
+logs/
+
+# Frontend dependencies and builds
+node_modules/
+.next/
+dist/
+build/
+.pytest_cache/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
